@@ -1,0 +1,344 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+body{
+	overflow-x:hidden;
+	width:1240px;
+}
+
+	.en-tête{
+		display: block;
+}
+
+#logo{
+	margin-top: 10px;
+	width:20%;
+	height: auto;
+	margin-left: 30px;
+}
+
+nav a {
+		margin:0px;
+		border-bottom:3px solid #f2f2f2;
+		padding-bottom: 20px;
+			font-size: 50px;
+}
+
+nav{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	text-align: center;
+	width:100%;
+	margin-top: 170px;
+}
+
+
+	nav a:hover{
+	border-top:none;
+	padding-bottom: 20px;
+	border-bottom: 3px solid #0065fc;
+}
+
+#inscription{
+	left:100%;
+	margin-top:5px;
+	border:none;
+}
+h1{
+	font-size: 70px;
+}
+
+main{
+	grid-template-columns:1fr;
+	grid-template-rows: 2450px 1590px 4490px 4000px;
+	margin:0px;
+	width: 100%;
+	margin: auto;
+}
+
+
+
+button{
+	width:140px;
+	height:140px;
+	border-radius: 40px;
+	font-size:40px;
+	margin-bottom: 40px;
+}
+
+input{
+	width: 800px;
+	height: 140px;
+	font-size: 60px;
+}
+
+.position{
+	width: 140px;
+	height: 140px;
+	margin-left: 30px;
+	border-radius: 40px 0px 0px 40px; 
+	font-size:40px;
+}
+
+.section-recherche {
+	width:90%;
+	margin-left: 50px;
+}
+
+
+
+.section-recherche p{
+	font-size: 50px;
+}
+.section-recherche h1{
+	font-size: 70px;
+
+}
+
+.info-logement{
+	padding-top: 20px;
+	font-size: 40px;
+	width:90%; 
+	margin: auto;
+}
+
+.filtres{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 310px 320px 310px 310px;
+		grid-gap: 10px;
+		font-size: 50px;
+		width: 90%;
+		margin: auto;
+		
+}
+
+.filtres div{
+	width: 500px;
+	height: 200px;
+	border-radius: 100px;
+}
+
+.filtres h2{
+	grid-column: 1/3;
+	grid-row: 1;
+	margin-left: 30px;
+}
+
+.filtres div:nth-child(5){
+	grid-column: 1/3;
+	grid-row: 4;
+	width: 580px;
+	height: 200px;
+}
+
+.style-icon{
+	width: 200px;
+	height: 200px;
+}
+
+.logo-info{
+	width: 110px;
+	height: 110px;
+}
+
+.hébergements{
+	grid-column: 1/3;
+	grid-row: 3;
+	display:grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 220px;
+	background-color: white;
+	width:90%; 
+	margin: auto;
+}
+
+.hébergements h2{
+	font-size: 60px;
+	width: 104%;
+
+}
+
+.cartes{
+	grid-column: 1/3;
+	height:655px;
+	border-radius: 40px;
+	margin: auto;
+	width:106%;
+}
+
+.cartes img{
+	height:350px;
+	border-radius: 30px 30px 0px 0px;
+}
+
+.cartes h3,.cartes p,.cartes i{
+	font-size:45px;
+}
+
+.afficher-plus{
+	grid-row: 8;
+	font-size: 30px;
+}
+	
+.populaires{
+	grid-column: 1/3;
+	grid-row: 2;
+	border-radius: 0px;
+	width:104%; 
+}
+
+.populaires h2{
+	font-size: 60px;
+	margin-left: 80px;
+	margin-bottom: 90px;
+}
+
+.populaires span i{
+	font-size: 60px;
+	padding-right: 40px;
+}
+
+.cartes-aside{
+	width: 90%;
+	height:380px;
+	font-size:45px;
+	margin: auto;
+	margin-bottom:60px;
+	border-radius: 40px;
+}
+.cartes-aside img{
+		border-radius: 30px 0px 0px 30px;
+}
+
+
+
+.activités{
+	grid-column: 1/3;
+	grid-row: 4;
+	display: block;
+	width:95%; 
+	margin: auto;
+	font-size: 30px;
+	margin-left: 55px;
+}
+
+.activités h2{
+	font-size: 60px;
+	margin-bottom: 90px;
+}
+
+.cartes-activité{
+	margin-top: 40px;
+	height: 655px;
+	border-radius: 40px;
+	font-size: 30px;
+}
+
+.cartes-activité-fort{
+	margin-top:40px;
+
+}
+
+.cartes-activité-eglise{
+	margin-top:40px;
+}
+
+.activités figure img{
+	height:450px; 
+}
+
+#calanque,#port{
+	padding-bottom:5px;
+}
+
+.vieux-port,.parc{
+	font-size: 50px;
+	margin-top:26px;
+}
+
+footer{
+	height: 600px;
+	width: 104%;
+
+}
+footer ul li{	
+	font-size: 25px;
+	padding-left: 0px;
+}
+
+footer ul {
+	margin-bottom: 180px
+	width:700px;
+}
+
+footer section{
+	padding-top:20px; 
+	display: block;
+}
+
+.loupe{
+	display: block;
+}
+
+.text-cherche{
+	display: none;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-device-width : 760px) and (max-device-width : 1024px) {
+
+.filtres div{
+	width:150px;
+}
+
+.hébergements{
+	width: 550px;
+	height: 650px;
+}
+
+.populaires{
+	width: 300px;
+	height: 650px;
+
+}
+
+.cartes{
+	height:180px;
+}
+
+.cartes h3,.cartes p,.cartes i{
+	font-size: 10px;
+}
+.cartes-aside{
+	height: 130px;
+	width: 230px;
+
+}
+
+.activités h2{
+margin-top: -40px;
+}
+
+.cartes-aside h3,.cartes-aside p,.cartes-aside i{
+	font-size: 10px;
+}
+
+footer{
+	height: 600px;
+	width: 100%;
+}
+
+}
