@@ -26,7 +26,7 @@ nav a:hover{
 }
 
 nav a[data-active="true"]{
-	color:#0065fc;
+	color:#0065FC;
 }
 
 nav a[data-active="false"]{
@@ -44,7 +44,7 @@ main{
 	margin: 20px 30px 20px 30px;
 	display:grid;
 	grid-template-columns: 2.2fr 1fr;
-	grid-template-rows: 390px 750px 850px;
+	grid-template-rows: 400px 750px 850px;
 	grid-gap: 30px;	
 }
 
@@ -100,7 +100,7 @@ input:focus{
   	border-radius: 0px 15px 15px 0px;
   	width:150px;
   	height: 60px;
-  	background-color: #0065fc;
+  	background-color: #0065FC;
   	color: white;
   	font-size: 20px;
 }
@@ -112,7 +112,7 @@ button span{
 }
 
 .filtres{
-	margin-top: 30px;
+	margin-top: 50px;
 	display: flex;
 	margin-bottom: 20px;
 	font-size:17px;
@@ -141,7 +141,7 @@ button span{
 	justify-content: center;
 	align-items: center;
 	border-radius: 50%;
-	color: #0000ff;
+	color: #0065FC;
 	margin:-3px;
 	margin-right: 15px;
 
@@ -224,8 +224,9 @@ color:#d9d9d9;
 .afficher-plus{
 	grid-column: 1/4;
 	grid-row: 4; 
-
-	margin-top: 30px;
+	width: 90%;
+	margin: auto;
+	margin-top: 40px;
 }
 
 .populaires{
