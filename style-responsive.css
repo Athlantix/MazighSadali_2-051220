@@ -3,6 +3,9 @@
 body{
 	overflow-x:hidden;
 }
+p{
+	font-weight:bold;
+}
 
 	.en-tête{
 		display: block;
