@@ -1,10 +1,8 @@
 @media screen and (max-width : 700px) {
 
-body{
-	overflow-x:hidden;
-}
-p{
-	font-weight:bold;
+html, body {
+  position:relative;
+  overflow-x:hidden;
 }
 
 	.en-tête{
@@ -118,7 +116,7 @@ input{
 	width: 140px;
 	height: 40px;
 	border-radius: 100px;
-	margin-left: 0px;
+	margin-left: 6px;
 }
 
 .filtres:nth-child(2){
