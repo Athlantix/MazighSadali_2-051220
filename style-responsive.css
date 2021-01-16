@@ -93,6 +93,20 @@ input{
 .section-recherche h1{
 	font-size: 20px;
 	width: 80%;
+}
+
+.filtre-h2{
+	margin-left: 30px;
+}
+
+.filtres{
+	width: 97%;
+	margin:auto;
+}
+
+.filtres div{
+	margin: 0px;
+	margin-left: 2px;
 
 }
 
@@ -103,43 +117,7 @@ input{
 	margin: auto;
 }
 
-.filtres{
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		grid-template-rows: 70px 70px 70px 70px;
-		font-size: 13px;
-		width: 93%;
-		margin: auto;		
-}
 
-.filtres div{
-	width: 140px;
-	height: 40px;
-	border-radius: 100px;
-	margin-left: 6px;
-}
-
-.filtres:nth-child(2){
-	color:blue;
-}
-
-.filtres h2{
-	grid-column: 1/3;
-	grid-row: 1;
-	margin-top: 40px;
-}
-
-.filtres div:nth-child(5){
-	grid-column: 1/3;
-	grid-row: 4;
-	width: 180px;
-	height: 45px;
-}
-
-.style-icon{
-	width: 45px;
-	height: 45px;
-}
 
 .logo-info{
 	width: 20px;
@@ -150,6 +128,7 @@ input{
 
 .info-logement{
 	font-size: 12px;
+	margin-top: -20px;
 }
 
 .hébergements{
@@ -382,7 +361,7 @@ footer section{
 
 
 
-@media screen and (min-width : 700px) and (max-width : 1000px) {
+@media screen and (min-width : 700px) and (max-width : 1070px) {
 
 #logo{
 	width: 100px;
@@ -445,21 +424,14 @@ border-bottom: 3px solid #0065fc;
 
 .filtres{
 	width: 100%;
-	height: 300px;
+	height: 100px;
+
 }
 
 .filtres div{
-	margin-left: 10px;
 
 }
 
-.filtres div:nth-child(5){
-	width:210px;
-	position: absolute;
-	position: relative;
-top: 80px; right: 550px;
-	
-}
 
 .style-icon{
 	width: 50px;
@@ -467,11 +439,11 @@ top: 80px; right: 550px;
 }
 
 .info-logement{
-	margin-top: -130px;
+	margin-top:0px; 
 }
 
 .hébergements{
-	width: 95%;
+	width: 104%;
 	height: 650px;
 }
 .hébergements h2{

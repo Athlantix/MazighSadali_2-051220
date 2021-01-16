@@ -114,11 +114,13 @@ button span{
 	cursor: pointer;
 }
 
+
 .filtres{
-	margin-top: 50px;
+	margin-top: 10px;
 	display: flex;
 	margin-bottom: 20px;
 	font-size:17px;
+	flex-wrap: wrap;
 
 }
 
@@ -131,6 +133,9 @@ button span{
 	height:55px;
 	margin-left: 40px;
 	
+}
+.filtres div:nth-child(4){
+	width: 230px;
 }
 
 .filtres div:hover{ background-color: #f2f2f2;
@@ -183,6 +188,7 @@ button span{
 .hébergements h2{
 	margin-top: 40px; 
 	font-size: 20px;
+	margin-left: 30px;
 }
 
 i[data-active="true"]{
