@@ -114,7 +114,6 @@ button span{
 	cursor: pointer;
 }
 
-
 .filtres{
 	margin-top: 10px;
 	display: flex;
@@ -132,10 +131,11 @@ button span{
 	padding-right: 20px;
 	height:55px;
 	margin-left: 40px;
+	margin-bottom: 5px;
 	
 }
 .filtres div:nth-child(4){
-	width: 230px;
+	width: 250px;
 }
 
 .filtres div:hover{ background-color: #f2f2f2;
