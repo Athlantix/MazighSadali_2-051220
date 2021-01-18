@@ -1,4 +1,4 @@
-@media screen and (max-width : 740px) {
+@media screen and (max-width : 755px) {
 
 html, body {
   position:relative;
@@ -48,7 +48,7 @@ border-bottom: 3px solid #0065fc;
 
 main{
 	grid-template-columns:1fr;
-	grid-template-rows: 650px 700px 1080px 2000px;
+	grid-template-rows: 660px 700px 1080px 2000px;
 	margin:0px;
 	width: 100%;
 	margin: auto;
@@ -97,6 +97,7 @@ input{
 
 .filtre-h2{
 	margin-left: 30px;
+	width: 100%;
 }
 
 .filtres{
@@ -362,7 +363,7 @@ footer section{
 
 
 
-@media screen and (min-width : 740px) and (max-width : 1070px) {
+@media screen and (min-width : 756px) and (max-width : 1150px) {
 
 #logo{
 	width: 100px;
@@ -378,7 +379,7 @@ html, body {
 main{
 	display:grid;
 	grid-template-columns:1fr;
-	grid-template-rows: 600px 750px 250px 450px 1500px;
+	grid-template-rows: 650px 750px 250px 450px 1500px;
 	grid-gap: 30px;	
 }
 
@@ -431,7 +432,7 @@ border-bottom: 3px solid #0065fc;
 
 
 .info-logement{
-	margin-top:0px; 
+	margin-top:80px; 
 }
 
 .hébergements{
